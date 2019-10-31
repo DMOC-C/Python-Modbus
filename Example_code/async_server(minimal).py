@@ -15,7 +15,7 @@ from pymodbus.device import ModbusDeviceIdentification
 # --------------------------------------------------------------------------- #
 from pymodbus.server.asynchronous import StartTcpServer
 
-from custom_message import CustomModbusRequest
+from Example_code.custom_message import CustomModbusRequest
 
 FORMAT = ('%(asctime)-15s %(threadName)-15s'
           ' %(levelname)-8s %(module)-15s:%(lineno)-8s %(message)s')
@@ -50,7 +50,7 @@ def run_async_server():
     # ----------------------------------------------------------------------- #
     # run the server you want
     # ----------------------------------------------------------------------- #
-    StartTcpServer(context, identity=identity, address=("localhost", 5020),
+    StartTcpServer(context, identity=identity, address=("192.168.0.119", 5020),
                    custom_functions=[CustomModbusRequest])
 
 
