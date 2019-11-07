@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a864db-bd55-44c4-b4f6-876233110931" name="Default Changelist" comment="Streamlined test code">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example_code/hello_world.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example_code/sync_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Example_code/sync_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fightclub2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modbus_gpio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.youtrack.notifications" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Archive" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,8 +49,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Archive" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Archive" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Archive" />
@@ -198,6 +198,9 @@
       <workItem from="1572440355600" duration="5093000" />
       <workItem from="1572890233713" duration="599000" />
       <workItem from="1573146415668" duration="430000" />
+      <workItem from="1573150831233" duration="436000" />
+      <workItem from="1573151289883" duration="3000" />
+      <workItem from="1573151331381" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="Streamlined test code">
       <created>1572450386665</created>
@@ -238,26 +241,26 @@
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
     <state x="2319" y="450" width="308" height="167" key="Github.Dialog.Accounts.Choose/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572450412938" />
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1573146865146">
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1573146958942">
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
-    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1573146865146">
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
+    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1573146958942">
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.center/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
-    <state width="1358" height="254" key="GridCell.Tab.0.center/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
-    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1573146865146">
+    <state width="1358" height="254" key="GridCell.Tab.0.center/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
+    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1573146958942">
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.left/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
-    <state width="1358" height="254" key="GridCell.Tab.0.left/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
-    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1573146865146">
+    <state width="1358" height="254" key="GridCell.Tab.0.left/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1573146958942">
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.right/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
-    <state width="1358" height="254" key="GridCell.Tab.0.right/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
     <state x="2056" y="271" width="826" height="524" key="IDE.errors.dialog" timestamp="1572441796895">
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>

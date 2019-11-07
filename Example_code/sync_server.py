@@ -39,13 +39,13 @@ def run_server():
     # The datastores only respond to the addresses that they are initialized to
     # Therefore, if you initialize a DataBlock to addresses of 0x00 to 0xFF, a
     # request to 0x100 will respond with an invalid address exception. This is
-    # because many devices exhibit this kind of behavior (but not all)::
+    # because many devs exhibit this kind of behavior (but not all)::
     #
     #     block = ModbusSequentialDataBlock(0x00, [0]*0xff)
     #
     # Continuing, you can choose to use a sequential or a sparse DataBlock in
     # your data context.  The difference is that the sequential has no gaps in
-    # the data while the sparse can. Once again, there are devices that exhibit
+    # the data while the sparse can. Once again, there are devs that exhibit
     # both forms of behavior::
     #
     #     block = ModbusSparseDataBlock({0x00: 0, 0x05: 1})
