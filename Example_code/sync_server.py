@@ -112,7 +112,9 @@ def run_server():
     # run the server you want
     # ----------------------------------------------------------------------- #
     # Tcp:
-    StartTcpServer(context, identity=identity, address=("192.168.0.119", 5020))
+    # StartTcpServer(context, identity=identity, address=("192.168.0.119", 5020))
+    StartTcpServer(context, identity=identity, address=("localhost", 5020))
+    # StartTcpServer(context, identity=identity, address=("192.168.1.2", 5020))
 
     # TCP with different framer
     # StartTcpServer(context, identity=identity,

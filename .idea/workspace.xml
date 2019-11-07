@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05a864db-bd55-44c4-b4f6-876233110931" name="Default Changelist" comment="Streamlined test code">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example_code/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_code/sync_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Example_code/sync_server.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="3aad36b5-fc23-4f99-a2c0-b5a983d9f4f6" />
+  </component>
+  <component name="ProjectId" id="1SvNp4IJmzQZ81PaTYwGx4OFPod" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.youtrack.notifications" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Archive" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Archive" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Archive" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.hello_world">
+    <configuration name="async_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Modbus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_client(minimal).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="async_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Modbus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/async_server(minimal).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="async_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Modbus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Archive/async_server.bak" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Modbus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example_code/hello_world.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sync_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-Modbus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example_code/sync_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sync_server" />
+        <item itemvalue="Python.hello_world" />
+        <item itemvalue="Python.async_client" />
+        <item itemvalue="Python.async_server (1)" />
+        <item itemvalue="Python.async_server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView />
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05a864db-bd55-44c4-b4f6-876233110931" name="Default Changelist" comment="" />
+      <created>1572440288695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572440288695</updated>
+      <workItem from="1572440289929" duration="56000" />
+      <workItem from="1572440355600" duration="5093000" />
+      <workItem from="1572890233713" duration="599000" />
+      <workItem from="1573146415668" duration="430000" />
+    </task>
+    <task id="LOCAL-00001" summary="Streamlined test code">
+      <created>1572450386665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572450386665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers>
+      <YouTrack url="https://bricks-in-the-loop.myjetbrains.com/youtrack">
+        <username>cody.jackson@caci.com</username>
+      </YouTrack>
+    </servers>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Streamlined test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streamlined test code" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2068" y="194" width="802" height="678" key="#Servers" timestamp="1572440463212">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2068" y="194" width="802" height="678" key="#Servers/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572440463212" />
+    <state x="2175" y="340" width="579" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1572440822565">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2175" y="340" width="579" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572440822565" />
+    <state x="2256" y="291" width="426" height="485" key="FileChooserDialogImpl" timestamp="1572882695791">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2256" y="291" width="426" height="485" key="FileChooserDialogImpl/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882695791" />
+    <state x="2319" y="450" width="308" height="167" key="Github.Dialog.Accounts.Choose" timestamp="1572450412938">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2319" y="450" width="308" height="167" key="Github.Dialog.Accounts.Choose/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572450412938" />
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1573146865146">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state width="1356" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
+    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1573146865146">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state width="1356" height="257" key="GridCell.Tab.0.center/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
+    <state width="1358" height="254" key="GridCell.Tab.0.center/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
+    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1573146865146">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state width="1356" height="257" key="GridCell.Tab.0.left/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
+    <state width="1358" height="254" key="GridCell.Tab.0.left/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1573146865146">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state width="1356" height="257" key="GridCell.Tab.0.right/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146865146" />
+    <state x="2056" y="271" width="826" height="524" key="IDE.errors.dialog" timestamp="1572441796895">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2056" y="271" width="826" height="524" key="IDE.errors.dialog/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572441796895" />
+    <state x="1969" y="168" width="1007" height="731" key="SettingsEditor" timestamp="1572878261167">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="1969" y="168" width="1007" height="731" key="SettingsEditor/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572878261167" />
+    <state x="2217" y="352" width="504" height="363" key="SimpleOpenTaskDialog" timestamp="1572440496824">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2217" y="352" width="504" height="363" key="SimpleOpenTaskDialog/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572440496824" />
+    <state x="2068" y="269" width="802" height="529" key="Vcs.Push.Dialog.v2" timestamp="1572450389012">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2068" y="269" width="802" height="529" key="Vcs.Push.Dialog.v2/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572450389012" />
+    <state x="2265" y="453" width="405" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1573146607645">
+      <screen x="1680" y="0" width="1600" height="1200" />
+    </state>
+    <state x="2265" y="453" width="405" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146607645" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Modbus$sync_server.coverage" NAME="sync_server Coverage Results" MODIFIED="1573146865129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example_code" />
+    <SUITE FILE_PATH="coverage/Python_Modbus$async_client.coverage" NAME="async_client Coverage Results" MODIFIED="1572449001698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Modbus$async_server.coverage" NAME="async_server Coverage Results" MODIFIED="1572440552661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Modbus$async_server__1_.coverage" NAME="async_server (1) Coverage Results" MODIFIED="1572448947037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Modbus$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1573146728857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example_code" />
+  </component>
+</project>
