@@ -32,7 +32,7 @@ class CallbackDataBlock(ModbusSparseDataBlock):
     def __init__(self, devices):
         self.devices = devices
 
-        values = {k: 0 for k in devices.iterkeys()}
+        values = {k: 0 for k in devices.keys()}
         values[0xbeef] = len(values)  # the number of devs
         super(CallbackDataBlock, self).__init__(values)
 
@@ -41,7 +41,7 @@ class CallbackDataBlock(ModbusSparseDataBlock):
         super(CallbackDataBlock, self).setValues(address, value)
 
     def getValues(self, address, count=1):
-        values = [self.devices[k].value for k in self.devices.keys()][address:address + count]
+        values = [self.devices[k].value for k in list(self.devices.keys())][address:address + count]
         return values
 
 
@@ -59,15 +59,16 @@ def gpo_read_device_map():
     :returns: The input mapping file
     """
     devices = {
-        0x0001: LED(2),   # LED 6
-        0x0002: LED(3),   # LED 2
-        0x0003: LED(4),   # LED 3
-        0x0004: LED(17),  # LED 4
-        0x0005: LED(27),  # LED 5
-        0x0006: LED(22),  # LED 6
-        0x0007: LED(20),  # relay 1
-        0x0008: LED(21),  # relay 2
+        0x0001: LED(17),  # LED 1
+        0x0002: LED(27),  # LED 2
+        0x0003: LED(22),  # LED 3
+        0x0004: LED(5),  # LED 4
+        0x0005: LED(6),  # LED 5
+        0x0006: LED(13),  # LED 6
+        0x0007: LED(19),  # LED 7
+        0x0008: LED(26),  # LED 8
     }
+
     return devices
 
 
@@ -82,4 +83,4 @@ context = ModbusServerContext(slaves=store, single=True)
 # ---------------------------------------------------------------------------#
 # run the server you want
 # ---------------------------------------------------------------------------#
-StartTcpServer(context, address=("10.10.55.157", 5020))
+StartTcpServer(context, address=("localhost", 5020))

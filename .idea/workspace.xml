@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a864db-bd55-44c4-b4f6-876233110931" name="Default Changelist" comment="Streamlined test code">
-      <change afterPath="$PROJECT_DIR$/fightclub2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modbus_gpio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example_code/helloworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modbus_gpio.py" beforeDir="false" afterPath="$PROJECT_DIR$/modbus_gpio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.youtrack.notifications" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -201,6 +201,7 @@
       <workItem from="1573150831233" duration="436000" />
       <workItem from="1573151289883" duration="3000" />
       <workItem from="1573151331381" duration="771000" />
+      <workItem from="1573242009396" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="Streamlined test code">
       <created>1572450386665</created>
