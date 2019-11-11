@@ -77,4 +77,4 @@ context = ModbusServerContext(slaves=store, single=True)
 # ---------------------------------------------------------------------------#
 # run the server you want
 # ---------------------------------------------------------------------------#
-StartTcpServer(context, address=("localhost", 5020))
+StartTcpServer(context, address=("192.168.0.118", 5020))

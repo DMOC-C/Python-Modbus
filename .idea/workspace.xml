@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a864db-bd55-44c4-b4f6-876233110931" name="Default Changelist" comment="Got modbus talking to LEDs">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/light_leds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-Modbus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-Modbus.iml" afterDir="false" />
+    <list default="true" id="05a864db-bd55-44c4-b4f6-876233110931" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example_code/helloworld.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_code/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/Example_code/hello_world.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modbus_gpio.py" beforeDir="false" afterPath="$PROJECT_DIR$/modbus_gpio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +66,7 @@
       <recent name="$PROJECT_DIR$/Archive" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.modbus_gpio">
+  <component name="RunManager" selected="Python.hello_world">
     <configuration name="async_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Modbus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,9 +179,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hello_world" />
         <item itemvalue="Python.modbus_gpio" />
         <item itemvalue="Python.sync_server (1)" />
-        <item itemvalue="Python.hello_world" />
         <item itemvalue="Python.sync_server" />
         <item itemvalue="Python.async_client" />
       </list>
@@ -221,7 +218,7 @@
       <workItem from="1573151331381" duration="771000" />
       <workItem from="1573242009396" duration="1575000" />
       <workItem from="1573485633164" duration="2138000" />
-      <workItem from="1573490447638" duration="2222000" />
+      <workItem from="1573490447638" duration="3455000" />
     </task>
     <task id="LOCAL-00001" summary="Streamlined test code">
       <created>1572450386665</created>
@@ -244,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573245140056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minor cleanup">
+      <created>1573492707781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573492707781</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <YouTrack url="https://bricks-in-the-loop.myjetbrains.com/youtrack">
         <username>cody.jackson@caci.com</username>
@@ -258,7 +262,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Streamlined test code" />
     <MESSAGE value="Got modbus talking to LEDs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got modbus talking to LEDs" />
+    <MESSAGE value="Minor cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor cleanup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2068" y="194" width="802" height="678" key="#Servers" timestamp="1572440463212">
@@ -269,6 +274,10 @@
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
     <state x="2175" y="340" width="579" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572440822565" />
+    <state x="4924" y="122" width="781" height="812" key="CommitChangelistDialog2" timestamp="1573492707691">
+      <screen x="4480" y="0" width="1680" height="1050" />
+    </state>
+    <state x="4924" y="122" width="781" height="812" key="CommitChangelistDialog2/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573492707691" />
     <state x="4580" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1573491847881">
       <screen x="4480" y="0" width="1680" height="1050" />
     </state>
@@ -282,30 +291,30 @@
     </state>
     <state x="2319" y="450" width="308" height="167" key="Github.Dialog.Accounts.Choose/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572450412938" />
     <state x="5151" y="394" key="Github.Dialog.Accounts.Choose/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573245163479" />
-    <state width="1638" height="276" key="GridCell.Tab.0.bottom" timestamp="1573492127695">
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom" timestamp="1573505742252">
       <screen x="4480" y="0" width="1680" height="1050" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
     <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
-    <state width="1638" height="276" key="GridCell.Tab.0.bottom/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573492127695" />
-    <state width="1638" height="276" key="GridCell.Tab.0.center" timestamp="1573492127695">
+    <state width="1638" height="276" key="GridCell.Tab.0.bottom/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573505742252" />
+    <state width="1638" height="276" key="GridCell.Tab.0.center" timestamp="1573505742252">
       <screen x="4480" y="0" width="1680" height="1050" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.center/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
     <state width="1358" height="254" key="GridCell.Tab.0.center/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
-    <state width="1638" height="276" key="GridCell.Tab.0.center/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573492127695" />
-    <state width="1638" height="276" key="GridCell.Tab.0.left" timestamp="1573492127694">
+    <state width="1638" height="276" key="GridCell.Tab.0.center/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573505742252" />
+    <state width="1638" height="276" key="GridCell.Tab.0.left" timestamp="1573505742252">
       <screen x="4480" y="0" width="1680" height="1050" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.left/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
     <state width="1358" height="254" key="GridCell.Tab.0.left/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
-    <state width="1638" height="276" key="GridCell.Tab.0.left/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573492127694" />
-    <state width="1638" height="276" key="GridCell.Tab.0.right" timestamp="1573492127695">
+    <state width="1638" height="276" key="GridCell.Tab.0.left/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573505742252" />
+    <state width="1638" height="276" key="GridCell.Tab.0.right" timestamp="1573505742252">
       <screen x="4480" y="0" width="1680" height="1050" />
     </state>
     <state width="1356" height="257" key="GridCell.Tab.0.right/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572882701075" />
     <state width="1358" height="254" key="GridCell.Tab.0.right/0.27.1680.1023/1680.0.1600.1200@1680.0.1600.1200" timestamp="1573146958942" />
-    <state width="1638" height="276" key="GridCell.Tab.0.right/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573492127695" />
+    <state width="1638" height="276" key="GridCell.Tab.0.right/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573505742252" />
     <state x="2056" y="271" width="826" height="524" key="IDE.errors.dialog" timestamp="1572441796895">
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
@@ -319,11 +328,11 @@
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
     <state x="2217" y="352" width="504" height="363" key="SimpleOpenTaskDialog/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572440496824" />
-    <state x="4887" y="235" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1573245151995">
+    <state x="4887" y="235" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1573492709426">
       <screen x="4480" y="0" width="1680" height="1050" />
     </state>
     <state x="2068" y="269" width="802" height="529" key="Vcs.Push.Dialog.v2/0.0.1680.1026/1680.0.1600.1200@1680.0.1600.1200" timestamp="1572450389012" />
-    <state x="4887" y="235" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573245151995" />
+    <state x="4887" y="235" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1080/0.27.1920.1053/4480.0.1680.1050@4480.0.1680.1050" timestamp="1573492709426" />
     <state x="2265" y="453" width="405" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1573146607645">
       <screen x="1680" y="0" width="1600" height="1200" />
     </state>
@@ -340,6 +349,6 @@
     <SUITE FILE_PATH="coverage/Python_Modbus$modbus_gpio.coverage" NAME="modbus_gpio Coverage Results" MODIFIED="1573492107280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Modbus$async_server.coverage" NAME="async_server Coverage Results" MODIFIED="1572440552661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Modbus$async_server__1_.coverage" NAME="async_server (1) Coverage Results" MODIFIED="1572448947037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Modbus$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1573491083589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example_code" />
+    <SUITE FILE_PATH="coverage/Python_Modbus$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1573505742247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example_code" />
   </component>
 </project>
