@@ -21,12 +21,6 @@ from pymodbus.transaction import ModbusRtuFramer, ModbusAsciiFramer
 # ---------------------------------------------------------------------------#
 from gpiozero import LED
 
-import logging
-
-logging.basicConfig()
-log = logging.getLogger()
-log.setLevel(logging.DEBUG)
-
 
 class CallbackDataBlock(ModbusSparseDataBlock):
     def __init__(self, devices):
