@@ -7,15 +7,29 @@ POC: Scott Thompson
 scott.thompson@caci.com
 832-570-5758
 """
-from pymodbus.client.sync import ModbusTcpClient as ModClient
 from random import randint, seed
 from time import sleep
+
+from pymodbus.client.sync import ModbusTcpClient as ModClient
 
 
 class Generator:
     """Simulates an electrical generator, with variance in output voltage."""
+
     def __init__(self, gen_ip_add="192.168.107.12", freq=0.0, speed=0, poles=4, volts=0, amps=0, pf=0.8, kva=0.0,
                  kw=0.0):
+        """Initialize generator
+
+        :param gen_ip_add: IP address for generator PLC
+        :param freq: Operating frequency
+        :param speed: Generator speed
+        :param poles: Number of magnetic poles on generator
+        :param volts: Output voltage
+        :param amps: Output amperage
+        :param pf: Power factor
+        :param kva: Kilovolt-amps out
+        :param kw: Kilowatts out
+        """
         self.client = ModClient(gen_ip_add)
         self.freq = float(freq)
         self.speed = int(speed)
