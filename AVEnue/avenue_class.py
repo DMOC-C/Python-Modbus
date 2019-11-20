@@ -6,6 +6,8 @@ AVEnue (Analog Value Emulator)
 POC: Scott Thompson
 scott.thompson@caci.com
 832-570-5758
+
+Program by Cody Jackson, based on work by Scott Thompson
 """
 from random import randint, seed
 from time import sleep
